@@ -13,7 +13,12 @@ int gcd(int a, int b){
 
 int main(){
   //test case
-  cout << gcd(2, 6);
+  int num1, num2;
+  cout << "Enter first number. " << endl;
+  cin >> num1;
+  cout << "Enter second number. " << endl;
+  cin >> num2;
+  cout << "GCD is " << gcd(num1, num2);
 }
 
 

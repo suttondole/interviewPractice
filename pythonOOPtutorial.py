@@ -30,12 +30,15 @@ class Dog:
         return f"{self.name} says {sound}"
 
     ##similar to the __init__ function, most classes have a __str__() function which
-    ##print out important info about the class. Notice the function description() does
+    ##prints out important info about the class. Notice the function description() does
     ##pretty much that, but we would want to use the __str__() function so we comment
     ##out the description(). With the __str__() function, all we have to do is say
     ##print(Buddy). This calls the __str__() function. Both the str and init function
     ##are called dunder methods because they begin and end with double underscores.
-    ##
+    ##There are other dunder methods, but we won't cover that here.
 
     def __str__(self):
         return f"{self.name} is {self.age} years old"
+
+
+

@@ -1,0 +1,59 @@
+		This doc serves as an intro to back end development
+		
+TOC:
+What is it?
+Fundamentals
+Basics of tools and technology used
+	Servers(Machinery)
+	Databases(The brains)
+	Middleware(Plumbing or communications)
+	Languages and framworks(Nuts and bolts)
+API's
+
+###################################################################################################################
+
+
+What is it?
+In most software development, there is back end and front end development. Backend refers to the server side logic which includes all the code needed to build the database, server, and application. Examples are database migrations, API integrations, and setting up server side tech that makes a website work
+
+
+###################################################################################################################
+
+
+Fundamentals
+
+Front end refers to "client-side" programming which is everything that happens in a browser i.e. what users see
+and interact with. Back end happens on the server(on site or in the cloud) and databases. End users don't see or
+really even interact with back end, though it powers what happens in the front end.
+
+This is the process in how front end flows to back end and vice versa:
+
+1. A site is loaded in a browser from a server. Note this is usually responsive to allow the design to function on any type of device (computer, phone, ect)
+
+2. Client side scripts are run in the browser and process requests without calling the server i.e. the only code
+used is front end. This is usually a mix of HTML, CSS, and JavaScript.
+
+3. When a call to the server is required, JavaScript and AJAX send requests to the back end which include the
+servers and the database.
+
+4. The back end server side scripts process the request, pull what they need from the database then send it back
+
+5. Server side scripts process the data, then update the site. Examples would be populating drop down menus,
+loading products into a cart, or updating user profiles.
+
+###################################################################################################################
+
+Basics of back end tools and tech
+
+STACK: comprises the database, server side framework, server, and OS
+Frameworks: Libraries of server side programming languages that construct the back end structure of a site. Server
+side scripts process requests and pull what they need from database
+API's: Structure how data is exchanged between a database and any software accessing it
+
+Back end can vary from project to project much more than front end, which usually consists of JavaScript, HTML, CSS
+
+To simplify, we break down the back end into four main components of the "software stack": the server, database,
+OS, and software.
+
+-------------------------------------------------------------------------------------------------------------------
+
